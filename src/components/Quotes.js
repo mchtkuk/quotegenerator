@@ -37,7 +37,7 @@ const Quotes = () => {
         <div id="quote-box">
             <div id="text">
             
-            <p><span id="right-quote">&#8221;</span> {quote} <span id="right-quote">&#8221;</span>
+            <p><span id="right-quote">&#8221;</span> <i>{quote}</i> <span id="right-quote">&#8221;</span>
             </p>
             </div>
             <div id="author"><p>{author}</p></div>
