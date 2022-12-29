@@ -30,6 +30,9 @@ const Quotes = () => {
             getQuote();
         }
     return (
+        <div>
+            <h1>Random Quote Generator</h1>
+        
     <div id="wrapper">
         <div id="quote-box">
             <div id="text">
@@ -51,6 +54,7 @@ const Quotes = () => {
                 <button onClick={handleClick} id="new-quote">New Quote</button>
             </div>
         </div>
+    </div>
     </div>
 
 

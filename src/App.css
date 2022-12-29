@@ -68,3 +68,12 @@ body {
 #new-quote:hover {
   opacity: 0.9;
 }
+
+h1 {
+  display: relative;
+  font-style: italic;
+  text-align: center;
+  margin: 20px auto;
+  justify-content: center;
+  display: flex;
+}
